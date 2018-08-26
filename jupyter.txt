@@ -1,0 +1,55 @@
+Introduction
+
+IPython is an interactive command-line interface to Python. Jupyter Notebook offers an interactive web interface to many languages, including IPython.
+
+
+Ubuntu 18.04 and later
+
+Open the terminal and type:
+sudo apt install python3-notebook jupyter-core python-ipykernel  
+
+then
+jupyter notebook
+
+**********************************OR**************************************
+Install it using
+sudo -H pip install jupyter
+
+After installation completes, use the following command
+jupyter notebook
+
+******************************************OR*****************************
+Step 1 — Installing Python 2.7 or greater and Pip
+
+To verify that you have python installed: python --version
+sudo apt-get -y install python-pip python-dev
+You can also check if pip is installed using the following command: pip --version
+
+Step 2 — Installing Ipython and Jupyter Notebook
+
+In this section we will install Ipython and Jupyter Notebook.
+
+First, install Ipython:
+    sudo apt-get -y install ipython ipython-notebook
+
+Now we can move on to installing Jupyter Notebook:
+    sudo -H pip install jupyter
+
+Step 3 — Running Jupyter Notebook
+
+You now have everything you need to run Jupyter Notebook! To run it, execute the following command:
+    jupyter notebook
+
+
+************************if error comes******************************
+Output
+You are using pip version 8.1.1, however version 8.1.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+If so, you can use pip to upgrade pip to the latest version:
+    sudo -H pip install --upgrade pip
+
+Upgrade pip, and then try installing Jupyter again:
+    sudo -H pip install jupyter
+
+
